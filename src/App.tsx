@@ -10,14 +10,11 @@ import { InteractiveStudio } from './components/InteractiveStudio';
 import { ShowcaseSection } from './components/ShowcaseSection';
 import { TemplateGallerySection } from './components/TemplateGallerySection';
 import { ImageToSketchSection } from './components/ImageToSketchSection';
-import { HandStylesSection } from './components/HandStylesSection';
 import { StorySection } from './components/StorySection';
 import { RoiSection } from './components/RoiSection';
 import { FinePrintSection } from './components/FinePrintSection';
 import { BonusSection } from './components/BonusSection';
 import { TestimonialSection } from './components/TestimonialSection';
-import { GuaranteeSection } from './components/GuaranteeSection';
-import { FaqSection } from './components/FaqSection';
 import { FinalCtaSection } from './components/FinalCtaSection';
 import { StickyMobileBar } from './components/StickyMobileBar';
 import { Footer } from './components/Footer';
@@ -30,7 +27,7 @@ export default function App() {
 
       {/* Main Content Sections */}
       <main id="main-content" className="flex-1">
-        {/* 1. Hero Section with Live Action */}
+        {/* 1. Hero Section with Embedded Video Demo */}
         <HeroSection />
 
         {/* 2. Interactive DoodleAI Studio Simulator (Custom Prompts, Board Styles, Aspect Ratios) */}
@@ -45,31 +42,22 @@ export default function App() {
         {/* 5. 1-Click Image to Vector Sketch Converter */}
         <ImageToSketchSection />
 
-        {/* 6. 1,000+ Human Hand & Pen Combinations */}
-        <HandStylesSection />
-
-        {/* 7. The Retention Problem & Dual-Coding Psychology */}
+        {/* 6. The Retention Problem & Dual-Coding Psychology */}
         <StorySection />
 
-        {/* 8. Interactive ROI Calculator & Competitor Comparison Matrix */}
+        {/* 7. Interactive ROI Calculator & Competitor Comparison Matrix */}
         <RoiSection />
 
-        {/* 9. Radical Transparency & Fine Print Breakdown */}
+        {/* 8. Radical Transparency & Fine Print Breakdown */}
         <FinePrintSection />
 
-        {/* 10. 4 Free Bonuses Stack ($180 Value) */}
+        {/* 9. 4 Free Bonuses Stack ($180 Value) */}
         <BonusSection />
 
-        {/* 11. Verified User Testimonials & Proof */}
+        {/* 10. Verified User Testimonials & Proof */}
         <TestimonialSection />
 
-        {/* 12. 60-Day ClickBank Money-Back Guarantee */}
-        <GuaranteeSection />
-
-        {/* 13. FAQ Accordion */}
-        <FaqSection />
-
-        {/* 14. Final Conversion Call to Action */}
+        {/* 11. Final Conversion Call to Action */}
         <FinalCtaSection />
       </main>
 
@@ -81,4 +69,5 @@ export default function App() {
     </div>
   );
 }
+
 

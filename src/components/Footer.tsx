@@ -33,19 +33,15 @@ export const Footer: React.FC = () => {
           <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-bold text-[#D4D4D4]">
             <a href="#top" className="hover:text-[#FFD43B] transition-colors">Back to Top</a>
             <span>•</span>
-            <a href="#demo" className="hover:text-[#FFD43B] transition-colors">AI Studio Demo</a>
+            <a href="#demo" className="hover:text-[#FFD43B] transition-colors">Video Demo</a>
             <span>•</span>
             <a href="#features" className="hover:text-[#FFD43B] transition-colors">Features</a>
             <span>•</span>
             <a href="#templates" className="hover:text-[#FFD43B] transition-colors">Templates</a>
             <span>•</span>
-            <a href="#hands" className="hover:text-[#FFD43B] transition-colors">Hand Styles</a>
-            <span>•</span>
             <a href="#comparison" className="hover:text-[#FFD43B] transition-colors">ROI Calculator</a>
             <span>•</span>
             <a href="#bonuses" className="hover:text-[#FFD43B] transition-colors">Bonuses</a>
-            <span>•</span>
-            <a href="#faq" className="hover:text-[#FFD43B] transition-colors">FAQ</a>
             <span>•</span>
             <a href={HOPLINK} target="_blank" rel="noopener noreferrer" className="text-[#FFD43B] hover:underline font-black">
               Get InstaDoodle ($37) &rarr;
