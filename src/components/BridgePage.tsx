@@ -9,15 +9,15 @@ export const BridgePage: React.FC = () => {
       {/* Main Bridge Content */}
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pt-14 sm:pb-16 flex flex-col justify-center">
         
-        {/* Main Headline from uploaded HTML */}
+        {/* Main Headline */}
         <div className="text-center max-w-4xl mx-auto mb-6 sm:mb-8">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-extrabold text-[#2563EB] tracking-tight leading-[1.18]">
-            Watch a Sentence Turn Into a Hand-Drawn Video
+            Turn Your Words Into a Hand-Drawn Video
           </h1>
 
           {/* Subheadline from uploaded HTML */}
           <p className="text-base sm:text-lg md:text-xl text-[#1A1A1A] font-bold mt-3 leading-snug">
-            Type the idea. DoodleAI draws the scenes. No camera. No editing timeline.
+            Type the idea DoodleAI draws the scenes, No camera, No editing timeline
           </p>
         </div>
 
